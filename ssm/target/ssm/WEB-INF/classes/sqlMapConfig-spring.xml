@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+    <!--定义别名-->
+    <typeAliases>
+        <!--<typeAlias type="games.seac.domain.Account"></typeAlias>-->
+        <!--自动扫包 别名为实体名全小写-->
+        <package name="games.seac.domain"/>
+    </typeAliases>
+
+</configuration>

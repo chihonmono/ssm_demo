@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring_ioc" />
+        <module name="mybatis_mapper" />
+        <module name="ssm" />
+        <module name="spring_exception" />
+        <module name="spring_ioc_anno" />
+        <module name="spring_test" />
+        <module name="spring_tx_anno" />
+        <module name="mybatis_multi" />
+        <module name="spring-jdbc" />
+        <module name="mybatis_quick" />
+        <module name="spring_mvc" />
+        <module name="mybatis_anno" />
+        <module name="mybatis_dao" />
+        <module name="mybatis_config" />
+        <module name="spring_interceptor" />
+        <module name="spring_aop" />
+      </profile>
+      <profile name="Annotation profile for spring" enabled="true">
+        <sourceOutputDir name="../spring_tx_anno/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../spring_tx_anno/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring_tx" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
